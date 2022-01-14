@@ -247,3 +247,9 @@ gbm.perf(best_boost, method = "cv")
 CV_MSE = data.frame(Model = c("logit","lasso","boost"), CV_MSE = c(MSE_logit,MSE_lasso,MSE_boost))
 CV_MSE
 
+#  Model    CV_MSE
+#1 logit 0.2464862
+#2 lasso 0.2463424
+#3 boost 0.2409180
+
+#we're able to reduce MSE from 0.246 to 0.241 using Boosting

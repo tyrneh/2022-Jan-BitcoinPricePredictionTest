@@ -5,4 +5,5 @@ Data from https://www.kaggle.com/team-ai/bitcoin-price-prediction/version/1?sele
 We'll do a simple machine learning exercise, comparing between logit, lasso, and boosting models to predict whether the next day open price will be higher than closing price. We use CV MSE to choose the optimal model. 
 
 We just want to compare between the models, so for laziness we'll stick with using MSE as the comparison rather than misclassification error rate. 
+
 Using boosting, we are able to reduce CV MSE from 0.246 to 0.241. 
